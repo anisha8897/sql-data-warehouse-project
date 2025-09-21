@@ -14,6 +14,8 @@ Parameters:
 
 Usage Example:
     EXEC bronze.load_bronze;
+After we create the empty bronze tables using bulk insert command we insert the data in the csv files into the tables so then raw data in the tables can be created
+
 ===============================================================================
 */
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
