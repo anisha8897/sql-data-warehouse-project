@@ -6,6 +6,8 @@ Script Purpose:
     This script creates tables in the 'bronze' schema, dropping existing tables 
     if they already exist.
 	  Run this script to re-define the DDL structure of 'bronze' Tables
+	In this we create the empty tables for each table in the crm and erp and then in proc_load_bronze.sql we load the data into the tables from the crm and esv files
+	'U' stands for user defined table
 ===============================================================================
 */
 
