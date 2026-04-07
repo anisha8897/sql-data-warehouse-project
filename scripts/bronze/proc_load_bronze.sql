@@ -7,6 +7,7 @@ Script Purpose:
     It performs the following actions:
     - Truncates the bronze tables before loading data.
     - Uses the `BULK INSERT` command to load data from csv Files to bronze tables.
+	- Tablock is used to lock the data as it is loading in the table.
 
 Parameters:
     None. 
